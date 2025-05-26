@@ -28,10 +28,10 @@
 $$\frac{N_i}{N_0} = \frac{g_i}{g_0} \exp\left(-\frac{E_i}{kT}\right)$$
 
 其中：
-- $N_i$：第$i$能级的原子数密度
+- $N_i$：第i能级的原子数密度
 - $N_0$：基态原子数密度  
-- $g_i$：第$i$能级的统计权重
-- $E_i$：第$i$能级的能量
+- $g_i$：第i能级的统计权重
+- $E_i$：第i能级的能量
 - $k$：Boltzmann常数
 - $T$：等离子体温度
 
@@ -42,7 +42,7 @@ $$\frac{N_i}{N_0} = \frac{g_i}{g_0} \exp\left(-\frac{E_i}{kT}\right)$$
 $$I_{ij} = \frac{hc}{4\pi\lambda_{ij}} A_{ij} N_i$$
 
 其中：
-- $I_{ij}$：从能级$i$到能级$j$的谱线强度
+- $I_{ij}$：从能级i到能级j的谱线强度
 - $h$：Planck常数
 - $c$：光速
 - $\lambda_{ij}$：跃迁波长
