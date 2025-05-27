@@ -188,7 +188,7 @@ graph TD
 | 矩特征 | 质心 | $\lambda_c = \frac{\sum \lambda_i I_i}{\sum I_i}$ | 光谱重心位置 |
 | 矩特征 | 光谱宽度 | $w = \sqrt{\frac{\sum(\lambda_i-\lambda_c)^2 I_i}{\sum I_i}}$ | 光谱展宽程度 |
 | 峰值特征 | 峰数量 | find_peaks算法 | 光谱线数量 |
-| 频域特征 | FFT均值 | $\bar{F} = \frac{1}{n}\sum_{i=1}^{n}|FFT(I_i)|$ | 频域平均能量 |
+| 频域特征 | FFT均值 | $\bar{F} = \frac{1}{n}\sum_{i=1}^{n}\|\text{FFT}(I_i)\|$ | 频域平均能量 |
 
 ### 4. 特征选择模块
 
